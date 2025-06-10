@@ -6,8 +6,23 @@
 
 /*generals*/
 header {
-  background-color: lightblue;
+  background-color: #3160e0;
   padding: 10px 0px;
+}
+
+.wh-tx {
+  color: white;
+  text-decoration: solid;
+  font-size: 20px;
+}
+
+.button {
+  border-radius: 23px;
+  color: black;
+  background-color: white;
+  border: 1px solid white;
+  text-align: center;
+  margin: 9px;
 }
 
 footer {
@@ -120,8 +135,4 @@ header ul {
 
 header ul li {
   margin: 0px 15px;
-}
-
-.text-right {
-  text-align: right;
 }
