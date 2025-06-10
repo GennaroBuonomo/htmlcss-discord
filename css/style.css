@@ -229,32 +229,8 @@ hr {
 }
 
 /*utility classes*/
-.bg-orange {
-  background-color: orange;
-}
-
-.bg-blue {
-  background-color: blue;
-}
-
-.bg-cyan {
-  background-color: cyan;
-}
-
-.bg-pink {
-  background-color: pink;
-}
-
 .bg-gray {
-  background-color: gray;
-}
-
-.bg-green {
-  background-color: green;
-}
-
-.border-black {
-  border: 1px solid black;
+  background-color: #f6f6f6;
 }
 
 .p-20 {
