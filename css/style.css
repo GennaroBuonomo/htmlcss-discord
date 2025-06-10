@@ -34,13 +34,26 @@ header {
   justify-content: space-around;
 }
 
+h3 {
+  font-size: 50px;
+  text-align: left;
+  margin: 10px auto;
+  padding: 20px;
+}
+
+.text {
+  color: black;
+  text-align: left;
+  margin: 20px;
+}
+
 /*Main*/
 
 .patter {
   background-image: url(../img/copertina.jpg);
   background-position: 100%;
   background-size: cover;
-  background-color: #3160e0;
+  background-color: #2d63eb;
 }
 
 h2 {
@@ -56,6 +69,8 @@ p {
   text-align: center;
   font-size: 20px;
 }
+
+
 
 .bg-white {
   border-radius: 25px;
