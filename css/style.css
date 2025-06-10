@@ -38,6 +38,18 @@ li {
   line-height: 0;
 }
 
+.button-2 {
+  border-radius: 23px;
+  color: #fff;
+  background-color: #8ea1e4;
+  border: 1px solid #8ea1e4;
+  margin: 16px;
+  height: 29px;
+  text-align: center;
+  width: 75px;
+}
+
+
 .click {
   display: flex;
   margin: 10px;
@@ -119,10 +131,11 @@ img-5 {
 }
 
 .icone {
-  font-size: 200%;
-  margin: 10px;
-  padding-left: 0px;
-  align-items: start;
+  display: flex;
+  justify-content: left;
+  font-size: 30px;
+  gap: 10px;
+  padding: 10px;
 }
 
 
@@ -170,9 +183,15 @@ footer {
   border-bottom: 1px solid white;
 }
 
-.bottom-foter {
-  padding-top: 20px;
+hr {
+  padding: 20px;
 }
+
+.bottom-footer {
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
 
 /*layout class*/
 .container {
@@ -247,7 +266,7 @@ footer {
 }
 
 .my-50 {
-  margin: 50px auto;
+  margin: 0px auto;
 }
 
 /*content classes*/
@@ -262,4 +281,23 @@ header ul {
 
 header ul li {
   margin: 0px 15px;
+}
+
+.p-color {
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.bt-decoration {
+  border-radius: 25px;
+  color: white;
+  background-color: #8ea1e2;
+  margin-left: 36%;
+  height: 32px;
+  line-height: 29px;
+  width: 28%;
+  text-align: center;
+
 }
