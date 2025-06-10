@@ -27,6 +27,15 @@ header {
   line-height: 0;
 }
 
+/*Main*/
+
+.patter {
+  background-image: url(../img/copertina.jpg);
+  background-position: 100%;
+  background-size: cover;
+  background-color: #3160e0;
+}
+
 footer {
   background-color: rgb(50, 50, 50);
 }
