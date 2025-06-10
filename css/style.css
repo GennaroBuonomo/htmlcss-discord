@@ -27,6 +27,13 @@ header {
   line-height: 0;
 }
 
+.click {
+  display: flex;
+  margin: 10px;
+  padding: 20px;
+  justify-content: space-around;
+}
+
 /*Main*/
 
 .patter {
@@ -35,6 +42,45 @@ header {
   background-size: cover;
   background-color: #3160e0;
 }
+
+h2 {
+  color: #fff;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 85px;
+  font-size: 35px;
+}
+
+p {
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+}
+
+.bg-white {
+  border-radius: 25px;
+  color: black;
+  background-color: white;
+  border: 1px solid white;
+  margin: 20px;
+  height: 30px;
+  line-height: 25px;
+  width: 17%;
+  text-align: center;
+}
+
+.bg-darkgray {
+  border-radius: 25px;
+  color: white;
+  background-color: #23272a;
+  border: 1px solid #23272a;
+  margin: 20px;
+  height: 32px;
+  line-height: 29px;
+  width: 28%;
+  text-align: center;
+}
+
 
 footer {
   background-color: rgb(50, 50, 50);
